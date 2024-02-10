@@ -33,11 +33,7 @@ const CardContainer = () => {
               </Col>
             ))}
 
-          {/* {filteredData.map((player, i) => (
-            <Col xl={3} lg={4} md={6} key={i}>
-              <PlayerCard {...player} />
-            </Col>
-          ))} */}
+         
         </Row>
       </Container>
     </>
