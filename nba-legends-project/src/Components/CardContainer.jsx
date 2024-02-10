@@ -12,23 +12,14 @@ const CardContainer = () => {
   const [search, setSearch] = useState("");
   const handleChange = (e) => {
     setSearch(e.target.value);
-    //! setter mtodları asenkron olarak çalışır. fonksiyon içinde update edilmiş state'e anlık olarak ulaşamayız
-    // console.log(search, "iç");
+    
   };
   console.log(search, "dış");
 
-  // const filteredData = data.filter((item) =>
-  //   item.name.toLowerCase().includes(search.toLowerCase().trim())
-  // );
+ 
   return (
     <>
-      {/* <Form.Control
-        placeholder="Search a player"
-        className="w-50 m-auto"
-        onChange={handleChange}
-        type="search"
-        // onChange={(e) => setSearch(e.target.value)}
-      /> */}
+     
       <FormComp handleChange={handleChange} />
       <Container className="rounded-4 my-4 p-3 card-container">
         <Row className="justify-content-center g-3">
