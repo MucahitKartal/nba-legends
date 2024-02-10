@@ -1,4 +1,4 @@
-import Form from "react-bootstrap/Form";
+
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import { data } from "../helpers/data";
@@ -14,7 +14,7 @@ const CardContainer = () => {
     setSearch(e.target.value);
     
   };
-  console.log(search, "dış");
+  console.log(search, "diş");
 
  
   return (
